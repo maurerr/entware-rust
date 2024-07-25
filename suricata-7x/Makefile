@@ -106,7 +106,7 @@ CONFIGURE_ARGS += \
 	--enable-geoip \
 	--enable-hiredis \
 	--enable-luajit \
-	--enable-nflog \
+	--disable-nflog \
 	--enable-nfqueue \
 	--with-libnet-includes=$(STAGING_DIR)/opt/include \
 	--with-libnet-libraries=$(STAGING_DIR)/opt/lib
